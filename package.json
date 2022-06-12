@@ -1,0 +1,36 @@
+{
+	"name": "chatcord",
+	"version": "1.0.0",
+	"description": "real-time chat room application",
+	"main": "server.js",
+	"scripts": {
+		"start": "node server",
+		"dev": "nodemon server"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Satyakoidala/chatcord-nodejs.git"
+	},
+	"keywords": [
+		"server.io",
+		"moment",
+		"express",
+		"node",
+		"chat-rooms",
+		"public-chat"
+	],
+	"author": "Koidala Veera Venkata Satya Sai",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Satyakoidala/chatcord-nodejs/issues"
+	},
+	"homepage": "https://github.com/Satyakoidala/chatcord-nodejs#readme",
+	"dependencies": {
+		"express": "^4.18.1",
+		"moment": "^2.29.3",
+		"socket.io": "^4.5.1"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.16"
+	}
+}
